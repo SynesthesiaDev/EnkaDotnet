@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
 using EnkaDotNet.Assets.ZZZ;
 using EnkaDotNet.Assets.ZZZ.Models;
 using EnkaDotNet.Components.ZZZ;

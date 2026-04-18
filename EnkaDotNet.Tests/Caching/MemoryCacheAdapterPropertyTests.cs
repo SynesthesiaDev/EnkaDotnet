@@ -1,11 +1,7 @@
-using System;
-using System.Threading.Tasks;
-using EnkaDotNet.Caching;
 using EnkaDotNet.Caching.Providers;
 using FsCheck;
 using FsCheck.Xunit;
 using Microsoft.Extensions.Caching.Memory;
-using Xunit;
 
 namespace EnkaDotNet.Tests.Caching
 {

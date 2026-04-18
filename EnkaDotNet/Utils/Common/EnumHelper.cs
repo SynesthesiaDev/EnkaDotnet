@@ -1,7 +1,4 @@
 using System.Collections.Generic;
-using EnkaDotNet.Enums.ZZZ;
-using EnkaDotNet.Enums.HSR;
-using GenshinStatType = EnkaDotNet.Enums.Genshin.StatType;
 
 namespace EnkaDotNet.Utils.Common
 {

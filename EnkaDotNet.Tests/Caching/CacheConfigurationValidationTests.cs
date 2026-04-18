@@ -1,4 +1,3 @@
-using System;
 using EnkaDotNet.Caching;
 using EnkaDotNet.Exceptions;
 using Xunit;

@@ -1,6 +1,3 @@
-using System;
-using System.IO;
-using System.Threading.Tasks;
 using EnkaDotNet.Caching;
 using EnkaDotNet.Caching.Providers;
 using FsCheck;

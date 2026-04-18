@@ -6,23 +6,22 @@
 		<OutputType>Library</OutputType>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>Enka Network Dotnet</Title>
-		<Authors>Aliafuji</Authors>
-		<PackageId>EnkaDotNet</PackageId>
-		<Product>Enka.DotNet</Product>
+		<Authors>Aliafuji, SynesthesiaDev</Authors>
+		<PackageId>SynesthesiaDev.EnkaDotNet</PackageId>
+		<Product>SynesthesiaDev.Enka.DotNet</Product>
 		<PackAsTool>False</PackAsTool>
 		<PlatformTarget>AnyCPU</PlatformTarget>
 		<Description>A wrapper for the Enka.Network API to retrieve HoYoverse games</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<RepositoryUrl>https://github.com/aliafuji/EnkaDotnet</RepositoryUrl>
+		<RepositoryUrl>https://github.com/SynesthesiaDev/EnkaDotnet</RepositoryUrl>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-		<Version>1.6.7</Version>
+		<Version>0.1.6.7</Version>
 		<ApplicationIcon>image.ico</ApplicationIcon>
 		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
 		<GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
 		<RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
 		<Copyright>Aliafuji</Copyright>
-		<PackageIcon>image (1).png</PackageIcon>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -48,10 +47,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Include="..\..\..\..\Downloads\image (1).png">
-			<Pack>True</Pack>
-			<PackagePath>\</PackagePath>
-		</None>
 		<None Include="..\LICENSE">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>

@@ -1,6 +1,5 @@
 using System.Threading;
 using System.Threading.Tasks;
-using EnkaDotNet.Enums;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 

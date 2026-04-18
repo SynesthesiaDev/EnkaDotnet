@@ -1,7 +1,5 @@
 using System.Text.Json;
-using EnkaDotNet;
 using EnkaDotNet.Models.Genshin;
-using EnkaDotNet.Components.Genshin;
 using EnkaDotNet.Utils.Genshin;
 using EnkaDotNet.Assets.Genshin;
 using Moq;

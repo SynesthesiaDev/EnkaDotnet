@@ -1,10 +1,5 @@
-using System;
 using System.Net;
-using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Threading.Tasks;
-using EnkaDotNet;
-using EnkaDotNet.Caching.Providers;
 using EnkaDotNet.Exceptions;
 using EnkaDotNet.Models.Genshin;
 using EnkaDotNet.Utils.Common;

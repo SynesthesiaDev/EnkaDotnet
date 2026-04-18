@@ -164,7 +164,7 @@ namespace EnkaDotNet
             return client;
         }
 
-        private Task<IGenshinAssets> GetGenshinAssetsAsync(string language)
+        public Task<IGenshinAssets> GetGenshinAssetsAsync(string language)
         {
             language = (language ?? DEFAULT_LANGUAGE).ToLowerInvariant();
             return _genshinAssetsCache.GetOrAdd(language, lang =>

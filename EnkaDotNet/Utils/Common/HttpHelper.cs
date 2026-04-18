@@ -14,7 +14,6 @@ using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
 using Polly;
 using Polly.CircuitBreaker;
 using Polly.Retry;

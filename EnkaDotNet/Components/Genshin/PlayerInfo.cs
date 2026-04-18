@@ -14,7 +14,7 @@ namespace EnkaDotNet.Components.Genshin
         public string Signature { get; internal set; } = string.Empty;
 
         public string IconUrl { get; internal set; } = string.Empty;
-
+        
         public int WorldLevel { get; internal set; }
 
         public int NameCardId { get; internal set; }

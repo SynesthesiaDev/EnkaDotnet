@@ -1,6 +1,5 @@
 using System.Text.Json;
 using EnkaDotNet.Models.HSR;
-using EnkaDotNet.Components.HSR;
 using EnkaDotNet.Utils.HSR;
 using EnkaDotNet.Enums.HSR;
 using Xunit;
