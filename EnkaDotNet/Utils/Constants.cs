@@ -15,6 +15,7 @@ namespace EnkaDotNet.Utils
         /// Default CDN base URL for Genshin Impact assets
         /// </summary>
         public const string DEFAULT_GENSHIN_ASSET_CDN_URL = "https://enka.network/ui/";
+        public const string DEFAULT_GENSHIN_ASSET_CDN_URL_RAW = "https://enka.network";
 
         /// <summary>
         /// Default API base URL for Zenless Zone Zero data
@@ -66,10 +67,10 @@ namespace EnkaDotNet.Utils
         {
             { "text_map.json", "https://raw.githubusercontent.com/seriaati/enka-py-assets/main/data/text_map.json" },
             { "characters.json", "https://raw.githubusercontent.com/seriaati/enka-py-assets/main/data/characters.json" },
-            { "namecards.json", "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/namecards.json" },
+            { "namecards.json", "https://raw.githubusercontent.com/EnkaNetwork/API-docs/refs/heads/master/store/gi/namecards.json" },
             { "consts.json", "https://raw.githubusercontent.com/seriaati/enka-py-assets/main/data/consts.json" },
             { "talents.json", "https://raw.githubusercontent.com/seriaati/enka-py-assets/main/data/talents.json" },
-            { "pfps.json", "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/pfps.json" }
+            { "pfps.json", "https://raw.githubusercontent.com/EnkaNetwork/API-docs/refs/heads/master/store/gi/pfps.json" }
         };
 
         /// <summary>

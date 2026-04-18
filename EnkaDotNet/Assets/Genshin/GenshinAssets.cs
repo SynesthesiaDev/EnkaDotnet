@@ -278,8 +278,15 @@ namespace EnkaDotNet.Assets.Genshin
                 if (!string.IsNullOrEmpty(pfpInfo.IconPath))
                 {
                     string adjustedIconPath = pfpInfo.IconPath.Replace("_Circle", "");
-                    return $"{Constants.DEFAULT_GENSHIN_ASSET_CDN_URL}{adjustedIconPath}.png";
+                    return $"{Constants.DEFAULT_GENSHIN_ASSET_CDN_URL_RAW}{adjustedIconPath}";
                 }
+            }
+            
+            Console.WriteLine($"does not exist in pfps, getting character icon url");
+            // Console.WriteLine();
+            foreach (var pfpAssetInfo in _pfps)
+            {
+                Console.WriteLine($"{pfpAssetInfo.Key} - {pfpAssetInfo.Value.IconPath}");
             }
             return GetCharacterIconUrl(characterId);
         }
